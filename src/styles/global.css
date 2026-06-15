@@ -95,6 +95,7 @@ a:hover {
   letter-spacing: -0.5px;
   display: flex;
   align-items: center;
+  gap: 0.75rem;
 }
 
 .site-title:hover {
@@ -103,9 +104,16 @@ a:hover {
 }
 
 .site-logo {
-  width: 180px;
-  height: 40px;
+  width: 40px;
+  height: 36px;
   display: block;
+  margin-left: -0.5rem;
+}
+
+.site-title-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
 }
 
 .site-nav {
