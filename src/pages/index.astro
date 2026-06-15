@@ -10,9 +10,7 @@ const sortedPosts = posts.sort(
 
 <BaseLayout title="Inicio" description="Blog sobre trading, inversión y educación financiera. Aprende a operar sin ruido.">
   <section class="post-list">
-    <h2 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--color-text-muted);">
-      Últimos artículos
-    </h2>
+    <h2 class="section-title">Últimos artículos</h2>
 
     {sortedPosts.length === 0 && (
       <p style="color: var(--color-text-muted);">No hay artículos publicados aún.</p>

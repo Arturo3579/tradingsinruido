@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Página no encontrada";
+const description = "La página que buscas no existe en Trading Sin Ruido.";
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="page-content">
+    <div class="page-404">
+      <h1>404</h1>
+      <h2>Página no encontrada</h2>
+      <p>La página que buscas no existe o ha sido movida.</p>
+      <a href="/">Volver al inicio &rarr;</a>
+    </div>
+  </div>
+</BaseLayout>

@@ -38,6 +38,8 @@ const { title, description, image } = Astro.props;
         <a href="/" class="site-title">Trading Sin Ruido</a>
         <nav class="site-nav">
           <a href="/">Inicio</a>
+          <a href="/sobre-nosotros">Sobre Nosotros</a>
+          <a href="/privacidad">Privacidad</a>
         </nav>
       </div>
     </header>
@@ -47,9 +49,30 @@ const { title, description, image } = Astro.props;
     </main>
 
     <footer class="site-footer">
-      <div class="container">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand"><a href="/">Trading Sin Ruido</a></div>
+          <p class="footer-desc">Blog de trading, inversión y educación financiera. Aprende a operar sin ruido en los mercados.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="/privacidad">Privacidad</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="/privacidad">Política de Privacidad</a></li>
+            <li><a href="/cookies">Política de Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
         <p>&copy; {new Date().getFullYear()} Trading Sin Ruido. Todos los derechos reservados.</p>
-        <p><a href="/">Inicio</a></p>
+        <p>Este sitio contiene enlaces de afiliados y publicidad. No es asesoramiento financiero.</p>
       </div>
     </footer>
   </body>
