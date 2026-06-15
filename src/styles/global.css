@@ -93,11 +93,19 @@ a:hover {
   color: var(--color-text);
   text-decoration: none;
   letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
 }
 
 .site-title:hover {
   color: var(--color-primary);
   text-decoration: none;
+}
+
+.site-logo {
+  width: 180px;
+  height: 40px;
+  display: block;
 }
 
 .site-nav {
