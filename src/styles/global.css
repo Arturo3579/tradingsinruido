@@ -93,26 +93,11 @@ a:hover {
   color: var(--color-text);
   text-decoration: none;
   letter-spacing: -0.5px;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
 }
 
 .site-title:hover {
   color: var(--color-primary);
   text-decoration: none;
-}
-
-.site-logo {
-  width: 40px;
-  height: 36px;
-  display: block;
-}
-
-.site-logo-text {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--color-text);
 }
 
 .site-nav {
@@ -152,27 +137,15 @@ a:hover {
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 .footer-brand a {
   color: var(--color-footer-text);
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 .footer-brand a:hover {
   color: var(--color-primary);
-}
-
-.footer-logo {
-  width: 30px;
-  height: 27px;
-  display: inline-block;
 }
 
 .footer-desc {
