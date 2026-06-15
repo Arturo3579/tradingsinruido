@@ -10,9 +10,7 @@ Empezar en trading puede parecer abrumador. Hay gráficos, indicadores, brokers,
 
 En este artículo te doy un **mapa de ruta claro** para comenzar en los mercados financieros sin perder el norte, basado en mi experiencia real operando índices como el Nasdaq y divisas como el USD/JPY.
 
-![Trader analizando gráficos en múltiples pantallas](https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&auto=format&fit=crop)
-
-<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA IMAGEN DESTACADA -->
+<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA INTRODUCCIÓN -->
 
 ## ¿Qué es exactamente el trading?
 

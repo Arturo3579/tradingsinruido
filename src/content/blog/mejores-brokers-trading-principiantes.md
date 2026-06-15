@@ -10,9 +10,7 @@ Elegir un broker es una de las decisiones más importantes cuando empiezas en tr
 
 He operado con más de 5 brokers diferentes durante los últimos años, operando desde índices como el Nasdaq 100 (NQ) hasta pares de divisas como EUR/USD y USD/JPY. En este artículo te comparto **mi comparativa real** de los brokers más adecuados para principiantes en 2026.
 
-![Comparativa de brokers de trading](https://images.unsplash.com/photo-1553729459-afe8c0b91f36?w=1200&auto=format&fit=crop)
-
-<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA IMAGEN DESTACADA -->
+<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA INTRODUCCIÓN -->
 
 ## ¿Qué buscar en un broker si eres principiante?
 
