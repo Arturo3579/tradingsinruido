@@ -284,14 +284,26 @@ a:hover {
 .post-card {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  padding: 1.75rem;
+  padding: 0;
   background: var(--color-bg);
   transition: box-shadow 0.2s, border-color 0.2s;
+  overflow: hidden;
 }
 
 .post-card:hover {
   box-shadow: 0 4px 12px var(--color-shadow);
   border-color: var(--color-primary);
+}
+
+.post-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.post-card-body {
+  padding: 1.75rem;
 }
 
 .post-card-title {
@@ -361,6 +373,14 @@ a:hover {
   margin-bottom: 2.5rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--color-border);
+}
+
+.post-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  margin-bottom: 1.5rem;
 }
 
 .post-title {
@@ -501,6 +521,14 @@ a:hover {
 
   .footer-grid {
     grid-template-columns: 1.5fr 1fr;
+  }
+
+  .post-image {
+    height: 360px;
+  }
+
+  .post-card-image {
+    height: 240px;
   }
 }
 

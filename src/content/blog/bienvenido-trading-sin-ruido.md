@@ -3,6 +3,7 @@ title: "Bienvenido a Trading Sin Ruido"
 description: "El primer artículo de nuestro blog. Descubre qué es Trading Sin Ruido y cómo este espacio te ayudará a mejorar como trader."
 date: 2026-01-15
 category: "General"
+image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&auto=format&fit=crop"
 ---
 
 Bienvenido a **Trading Sin Ruido**, un blog creado para traders que buscan claridad en un mundo lleno de información.
