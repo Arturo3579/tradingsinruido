@@ -1,7 +1,7 @@
 ---
 title: "La disciplina en el trading: por qué el 90% falla y cómo no ser uno de ellos"
 description: "El 90% de los traders pierde dinero. No es culpa del mercado: es falta de disciplina. Descubre las 5 reglas que los traders profesionales usan para sobrevivir y prosperar."
-date: 2026-06-15
+date: 2026-06-17
 category: "Psicología"
 image: "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=1200&auto=format&fit=crop"
 ---

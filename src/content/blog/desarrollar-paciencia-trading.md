@@ -1,7 +1,7 @@
 ---
 title: "Cómo desarrollar la paciencia en el trading: guía práctica"
 description: "La paciencia es la habilidad más infravalorada en trading. Descubre por qué apurarte te cuesta dinero y cómo entrenar la paciencia para operar con claridad."
-date: 2026-06-15
+date: 2026-06-19
 category: "Psicología"
 image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&auto=format&fit=crop"
 ---

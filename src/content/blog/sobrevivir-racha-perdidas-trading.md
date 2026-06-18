@@ -1,7 +1,7 @@
 ---
 title: "Cómo sobrevivir a una racha de pérdidas en trading: guía psicológica para no perder tu cuenta"
 description: "Las rachas de pérdidas son inevitables en trading. Aprende a manejarlas sin perder la cabeza ni tu cuenta con estas 5 estrategias psicológicas basadas en experiencia real."
-date: 2026-06-15
+date: 2026-06-17
 category: "Psicología"
 image: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=1200&auto=format&fit=crop"
 ---
