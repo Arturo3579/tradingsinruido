@@ -1,7 +1,7 @@
 ---
 title: "La psicología del FOMO en trading y cómo combatirla: guía práctica"
 description: "El FOMO (fear of missing out) es uno de los errores más costosos en trading. Descubre por qué entras sin setup y cómo entrenar tu mente para evitarlo."
-date: 2026-06-19
+date: 2026-06-20
 category: "Psicología"
 image: "https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=1200&auto=format&fit=crop"
 ---
