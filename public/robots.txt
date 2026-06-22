@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tradingsinruido.com/sitemap-index.xml
+Sitemap: https://www.tradingsinruido.com/sitemap-index.xml
