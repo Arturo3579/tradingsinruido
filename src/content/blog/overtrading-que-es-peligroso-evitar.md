@@ -1,7 +1,7 @@
 ---
 title: "Overtrading: qué es, por qué es peligroso y cómo evitarlo"
 description: "El overtrading destruye cuentas más rápido que cualquier estrategia perdedora. Descubre qué es, por qué lo haces sin darte cuenta y cómo ponerle freno antes de que sea tarde."
-date: 2026-06-22
+date: 2026-06-25
 category: "Psicología"
 image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&auto=format&fit=crop"
 ---
