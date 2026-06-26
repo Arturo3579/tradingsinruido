@@ -1,9 +1,9 @@
 ---
 title: "Estrategia de apertura de Nueva York en el Nasdaq (paso a paso)"
 description: "Aprende a operar la apertura de la sesión de Nueva York en el Nasdaq (NQ) con una estrategia estructurada basada en rupturas de rango asiático y reingresos en FVG."
-date: 2026-06-25
+date: 2026-06-26
 category: "Estrategias"
-image: "https://images.unsplash.com/photo-1611974765270-ca12586343bb?w=1200&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop"
 ---
 
 La apertura de Nueva York es el momento más volátil del día para el Nasdaq (NQ). Durante los primeros 30 minutos, el mercado define la tendencia que dominará la sesión. Si sabes leer ese movimiento inicial, tienes una ventaja estadística real. Si no, te conviertes en combustible para los institucionales que sí saben.
