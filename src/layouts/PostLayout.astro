@@ -31,13 +31,19 @@ const { Content } = await render(post);
     </header>
 
     <div class="post-content">
-      <!-- BLOQUE DE ANUNCIO ADSENSE AQUÍ -->
-      <div class="adsense-slot">Anuncio AdSense</div>
+      <!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article Top) -->
+      <div class="adsense-slot">
+        <!-- Reemplaza con tu código de AdSense -->
+        <p style="margin:0;font-size:0.75rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;">Publicidad</p>
+      </div>
 
       <Content />
 
-      <!-- BLOQUE DE ANUNCIO ADSENSE AQUÍ -->
-      <div class="adsense-slot">Anuncio AdSense</div>
+      <!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article Bottom) -->
+      <div class="adsense-slot">
+        <!-- Reemplaza con tu código de AdSense -->
+        <p style="margin:0;font-size:0.75rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;">Publicidad</p>
+      </div>
     </div>
   </article>
 </BaseLayout>
