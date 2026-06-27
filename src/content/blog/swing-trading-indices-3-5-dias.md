@@ -3,7 +3,7 @@ title: "Swing trading en índices: cómo capturar movimientos de 3-5 días"
 description: "Aprende a operar swings de 3-5 días en índices como el S&P 500 y el Nasdaq con un enfoque clásico basado en tendencia, medias móviles y gestión de riesgo estructurada."
 date: 2026-06-27
 category: "Estrategias"
-image: "https://images.unsplash.com/photo-1611974765270-ca12586343bb?w=1200&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=1200&auto=format&fit=crop"
 ---
 
 El day trading te agota. Pasas 8 horas frente a pantallas, tomas 5 decisiones al día, y al final de la semana tu cuenta está igual o peor. El swing trading en índices es lo opuesto: operas menos, ganas más calidad de vida, y dejas que el mercado trabaje para ti.
