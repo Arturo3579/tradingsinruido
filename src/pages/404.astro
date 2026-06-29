@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const title = "Página no encontrada";
-const description = "La página que buscas no existe en Trading Sin Ruido.";
+const description = "La página que buscas no existe en Trading Sin Ruido. Descubre nuestro contenido más popular.";
 ---
 
 <BaseLayout title={title} description={description}>
@@ -10,8 +10,118 @@ const description = "La página que buscas no existe en Trading Sin Ruido.";
     <div class="page-404">
       <h1>404</h1>
       <h2>Página no encontrada</h2>
-      <p>La página que buscas no existe o ha sido movida.</p>
-      <a href="/">Volver al inicio &rarr;</a>
+      <p>La página que buscas no existe o ha sido movida a otra ubicación. Pero no te vayas con las manos vacías: aquí tienes nuestro contenido más útil.</p>
+
+      <div class="error-popular-posts">
+        <h3>📚 Artículos más populares</h3>
+        <ul class="styled-list">
+          <li><a href="/blog/estrategia-apertura-nueva-york-nasdaq/">Estrategia de apertura de Nueva York en el Nasdaq (paso a paso)</a></li>
+          <li><a href="/blog/swing-trading-indices-3-5-dias/">Swing trading en índices: cómo capturar movimientos de 3-5 días</a></li>
+          <li><a href="/blog/controlar-miedo-operar-trading/">Cómo controlar el miedo al operar: técnicas probadas</a></li>
+          <li><a href="/blog/trading-rangos-mercado-lateral/">Trading de rangos: cómo operar cuando el mercado está lateral</a></li>
+          <li><a href="/blog/como-empezar-trading-desde-cero/">Cómo empezar en trading desde cero: guía paso a paso</a></li>
+        </ul>
+      </div>
+
+      <div class="error-categories">
+        <h3>🔍 Explora por categoría</h3>
+        <div class="error-category-grid">
+          <a href="/" class="error-category-card">
+            <strong>Estrategias</strong>
+            <span>Apertura NY, Swing, Rangos, ICT</span>
+          </a>
+          <a href="/" class="error-category-card">
+            <strong>Psicología</strong>
+            <span>Miedo, FOMO, Disciplina, Paciencia</span>
+          </a>
+          <a href="/" class="error-category-card">
+            <strong>Principiantes</strong>
+            <span>Brokers, Primeros pasos, Rutinas</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="error-back-home">
+        <a href="/" class="read-more">← Volver al inicio</a>
+      </div>
     </div>
   </div>
 </BaseLayout>
+
+<style>
+  .error-popular-posts {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius-md);
+    text-align: left;
+  }
+  .error-popular-posts h3 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  .error-popular-posts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .error-popular-posts li {
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  .error-popular-posts li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+    font-weight: bold;
+  }
+  .error-popular-posts a {
+    font-weight: 500;
+  }
+  .error-categories {
+    margin: 2rem 0;
+    text-align: left;
+  }
+  .error-categories h3 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  .error-category-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  .error-category-card {
+    display: block;
+    padding: 1rem 1.25rem;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .error-category-card:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 2px 8px var(--color-shadow);
+    text-decoration: none;
+  }
+  .error-category-card strong {
+    display: block;
+    color: var(--color-text);
+    margin-bottom: 0.25rem;
+  }
+  .error-category-card span {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+  }
+  .error-back-home {
+    margin-top: 2rem;
+  }
+  @media (min-width: 640px) {
+    .error-category-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>
