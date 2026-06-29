@@ -3,7 +3,7 @@ title: "Trading de rangos: cómo operar cuando el mercado está lateral"
 description: "El 70% del tiempo el mercado no tiende: está en rango. Aprende a identificarlo, operarlo y dejar de perder dinero forzando movimientos que no existen."
 date: 2026-06-29
 category: "Estrategias"
-image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&auto=format&fit=crop"
 ---
 
 Era martes 14 de enero. El S&P 500 llevaba cuatro días sin moverse más de 18 puntos. Atrapado entre 5,820 y 5,838. Yo, en cambio, llevaba cuatro operaciones perdidas. Cuatro. Cada una era un "breakout" que nunca llegó. Cada stop loss se activó cuando el precio me engañó con una mecha falsa por encima de la resistencia, para luego caer de nuevo al centro del rango como una piedra en un pozo.
