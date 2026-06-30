@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Contacto";
+const description = "Contacta con Trading Sin Ruido. Envíanos tus dudas, sugerencias o propuestas de colaboración.";
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="page-content">
+    <header class="page-header">
+      <h1 class="page-title">Contacto</h1>
+      <p class="page-lead">¿Tienes dudas sobre alguna estrategia? ¿Quieres proponer un tema para el blog? ¿O simplemente quieres compartir tu experiencia como trader? Escríbenos.</p>
+    </header>
+
+    <div class="page-body">
+      <h2>Escríbenos por email</h2>
+      <p>Respondemos en un plazo de 24-48 horas. Si tu consulta es sobre una estrategia específica, incluye el enlace al artículo para que podamos ayudarte mejor.</p>
+      
+      <div class="contact-email-box">
+        <strong>Email de contacto:</strong>
+        <a href="mailto:thor19daniel@gmail.com">thor19daniel@gmail.com</a>
+      </div>
+
+      <h2>¿Sobre qué puedes escribirnos?</h2>
+      <ul>
+        <li><strong>Dudas sobre estrategias:</strong> Si no entiendes un paso de alguna de nuestras guías, pregúntanos.</li>
+        <li><strong>Sugerencias de contenido:</strong> ¿Hay un tema de trading que te gustaría que cubramos? Cuéntanoslo.</li>
+        <li><strong>Correcciones:</strong> Si encuentras un error en algún artículo, avísanos y lo corregimos.</li>
+        <li><strong>Colaboraciones:</strong> Si eres trader con experiencia y quieres aportar un artículo, estamos abiertos a propuestas.</li>
+      </ul>
+
+      <div class="info-box">
+        <strong>🔒 Privacidad</strong><br>
+        Tu email y cualquier información que nos compartas se trata con confidencialidad. No compartimos tus datos con terceros ni te añadiremos a listas de correo sin tu permiso expreso. Para más información, consulta nuestra <a href="/privacidad">Política de Privacidad</a>.
+      </div>
+
+      <h2>Redes sociales</h2>
+      <p>Próximamente estaremos activos en redes sociales. Mientras tanto, el canal más rápido para contactar es el email de arriba.</p>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .contact-email-box {
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .contact-email-box a {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+</style>
