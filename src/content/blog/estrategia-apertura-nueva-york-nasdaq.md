@@ -12,7 +12,7 @@ Esta estrategia no la inventé yo. La aprendí tras años de observar cómo el p
 
 He operado esta apertura durante más de dos años. He tenido días donde una sola operación generó el objetivo semanal. He tenido días donde el mercado respetó el rango y no hubo nada que hacer. La diferencia entre ganar y perder nunca fue la estrategia. Fue mi capacidad de esperar a que el setup se complete sin forzarlo.
 
-<img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&auto=format&fit=crop" alt="Gráfico de bolsa en pantalla" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&auto=format&fit=crop" alt="Gráfico de bolsa en pantalla" class="article-image" loading="lazy" />
 
 <!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA INTRODUCCIÓN -->
 <div class="adsense-slot">
@@ -43,7 +43,7 @@ La ruptura del rango asiático no es aleatoria. Es la respuesta a la acumulació
 
 ## La estrategia paso a paso
 
-<img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&auto=format&fit=crop" alt="Trader analizando gráficos" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&auto=format&fit=crop" alt="Trader analizando gráficos" class="article-image" loading="lazy" />
 
 ### Paso 1: Marca el rango de la sesión asiática
 
@@ -181,7 +181,7 @@ Una vez dentro, no toques nada excepto si:
 
 ## Cuándo NO operar esta estrategia
 
-<img src="https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=1200&auto=format&fit=crop" alt="Calculadora y datos financieros" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&auto=format&fit=crop" alt="Calculadora y datos financieros" class="article-image" loading="lazy" />
 
 ### 1. Noticias de alto impacto a las 09:30 ET
 

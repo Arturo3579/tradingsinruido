@@ -12,7 +12,7 @@ Esa semana perdí el 3.8% de mi cuenta. No porque el mercado fuera malo. Porque 
 
 No fue la primera vez que me pasó. Pero sí fue la última que me pasó sin entender por qué. Este artículo es lo que aprendí después de esa semana negra. Es lo que me hubiera salvado si alguien me lo hubiera dicho antes.
 
-<img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&auto=format&fit=crop" alt="Gráfico lateral sin tendencia clara" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1639322537228-f710d846310a?w=1200&auto=format&fit=crop" alt="Gráfico lateral sin tendencia clara" class="article-image" loading="lazy" />
 
 <!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA INTRODUCCIÓN -->
 <div class="adsense-slot">
@@ -93,7 +93,7 @@ En una tendencia real, el volumen aumenta en la dirección del movimiento. En un
   Dibujo líneas horizontales en el soporte y la resistencia. Luego espero 5 velas diarias. Si el precio toca ambas líneas al menos 2 veces cada una sin romperlas con cierre, tengo un rango confirmado. Hasta entonces, no existen líneas. Solo conjeturas.
 </div>
 
-<img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&auto=format&fit=crop" alt="Análisis de soporte y resistencia en pantalla" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1640340434855-6084b1f4901c?w=1200&auto=format&fit=crop" alt="Análisis de soporte y resistencia en pantalla" class="article-image" loading="lazy" />
 
 ## La estrategia paso a paso
 
@@ -157,7 +157,7 @@ No entres antes. Espera a que el precio toque el soporte o la resistencia. Y no 
 
 ## Cuándo el rango se invalida (y debes salir)
 
-<img src="https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=1200&auto=format&fit=crop" alt="Alerta de ruptura en gráfico" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1642104704074-907c0698cbd9?w=1200&auto=format&fit=crop" alt="Alerta de ruptura en gráfico" class="article-image" loading="lazy" />
 
 ### La ruptura real vs la trampa
 

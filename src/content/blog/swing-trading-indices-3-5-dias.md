@@ -12,7 +12,7 @@ No necesitas velas de 1 minuto ni 12 monitores. Con un timeframe diario o de 4 h
 
 He operado ambos estilos. El day trading me quemó. El swing trading me dio consistencia, porque me obligó a pensar en términos de probabilidades a largo plazo en lugar de reacciones de corto plazo. Este artículo es el resumen de lo que funciona en el mundo real, sin indicadores exóticos y sin estrategias que solo funcionan en backtests.
 
-<img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&auto=format&fit=crop" alt="Gráfico de índice bursátil" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&auto=format&fit=crop" alt="Gráfico de índice bursátil" class="article-image" loading="lazy" />
 
 <!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA INTRODUCCIÓN -->
 <div class="adsense-slot">
@@ -82,7 +82,7 @@ He operado ambos estilos. El day trading me quemó. El swing trading me dio cons
   </ul>
 </div>
 
-<img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&auto=format&fit=crop" alt="Análisis de gráficos en pantalla" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?w=1200&auto=format&fit=crop" alt="Análisis de gráficos en pantalla" class="article-image" loading="lazy" />
 
 ## La estrategia paso a paso
 
@@ -219,7 +219,7 @@ Una vez dentro, revisa la operación **máximo 2 veces al día** (mañana y tard
 
 ## Cuándo NO operar un swing
 
-<img src="https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=1200&auto=format&fit=crop" alt="Calculadora y análisis financiero" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1618044733300-9472054094ee?w=1200&auto=format&fit=crop" alt="Calculadora y análisis financiero" class="article-image" loading="lazy" />
 
 ### 1. Durante eventos macro de alto impacto
 

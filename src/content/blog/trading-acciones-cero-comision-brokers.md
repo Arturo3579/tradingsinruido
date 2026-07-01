@@ -10,7 +10,7 @@ Mi primera cuenta de trading la abrí en un banco tradicional español. Compré 
 
 Esa experiencia me llevó a buscar alternativas. Descubrí los brokers "0% comisión": Robinhood, eToro, TradeZero, Interactive Brokers Lite. Abrí cuenta en uno de ellos emocionado. Pensé: "Ahora sí, sin comisiones mi rentabilidad va a dispararse". Durante tres meses operé acciones a diario. Al revisar mi extracto al trimestre, descubrí que había pagado más en spreads ampliados, swaps overnight y conversiones de divisa que en comisiones fijas en mi banco tradicional. El 0% comisión no era gratis. Era simplemente una forma más inteligente de cobrarme.
 
-<img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&auto=format&fit=crop" alt="Broker online con comisión cero" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=1200&auto=format&fit=crop" alt="Broker online con comisión cero" class="article-image" loading="lazy" />
 
 <!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA INTRODUCCIÓN -->
 <div class="adsense-slot">
@@ -95,7 +95,7 @@ Vamos a números concretos. Supón que operas acciones de Apple (AAPL) con un ta
   Si operas <strong>frecuentemente</strong> (más de 15 trades al mes) con posiciones intradía, un broker "0% comisión" con spreads ajustados puede salirte rentable. Si operas <strong>poco</strong> (1-5 trades al mes) o mantienes posiciones días/semanas, el costo del spread ampliado y los swaps te come la ventaja del "0% comisión".
 </div>
 
-<img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&auto=format&fit=crop" alt="Extracto de broker con costos ocultos" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1605792657660-596af9009e82?w=1200&auto=format&fit=crop" alt="Extracto de broker con costos ocultos" class="article-image" loading="lazy" />
 
 ## Los 3 mejores brokers para acciones con 0% comisión (reales)
 
@@ -143,7 +143,7 @@ No todos los brokers "0%" son iguales. Algunos son honestos sobre sus costos. Ot
 
 ## Las 5 trampas que esconden los brokers "0% comisión"
 
-<img src="https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=1200&auto=format&fit=crop" alt="Letra pequeña de contrato de broker" class="article-image" loading="lazy" />
+<img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop" alt="Letra pequeña de contrato de broker" class="article-image" loading="lazy" />
 
 ### Trampa 1: El spread que nunca ves
 
