@@ -1,7 +1,7 @@
 ---
 title: "Trading en acciones con 0% comisión: los mejores brokers y las trampas que esconden"
 description: "¿Operar acciones sin pagar comisión? Descubre qué brokers ofrecen 0% comisión, por qué no es gratis y las trampas que te costarán más dinero que una tarifa fija."
-date: 2026-06-29
+date: 2026-07-01
 category: "Brokers"
 image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&auto=format&fit=crop"
 ---
