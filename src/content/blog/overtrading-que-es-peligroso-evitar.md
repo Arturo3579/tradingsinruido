@@ -12,7 +12,10 @@ Eso es **overtrading**. No es una estrategia mala. Es operar sin estrategia, imp
 
 He tenido días donde operé 12 veces cuando mi plan decía máximo 3. Días donde entré en pares que ni siquiera analizo solo porque "se veía movimiento". Días donde el mercado no tenía nada que ofrecer y yo insistí en forzar operaciones hasta que mi cuenta sangró. Aprender a identificar y detener el overtrading fue más importante que aprender cualquier setup técnico.
 
-<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA INTRODUCCIÓN -->
+<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article Top) -->
+<div class="adsense-slot">
+  <p style="margin:0;font-size:0.75rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;">Publicidad</p>
+</div>
 
 ## ¿Qué es exactamente el overtrading?
 
@@ -30,7 +33,10 @@ He tenido días donde operé 12 veces cuando mi plan decía máximo 3. Días don
 
 **3. Overtrading por distracción:** Operas en múltiples pares, timeframes o sesiones simultáneamente sin tener edge en ninguno. Estás en EURUSD, GBPUSD, USDJPY y XAUUSD a la vez, saltando entre gráficos de 1m, 5m y 15m.
 
-<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- MITAD DEL ARTÍCULO -->
+<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article Mid) -->
+<div class="adsense-slot">
+  <p style="margin:0;font-size:0.75rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;">Publicidad</p>
+</div>
 
 ## Por qué el overtrading es peligroso (más de lo que crees)
 
@@ -56,7 +62,10 @@ He visto traders perder en una tarde lo que habían ganado en dos semanas. No po
 
 > **Verdad incómoda:** El overtrading rara vez se siente mal en el momento. Se siente productivo. Te hace sentir que estás "trabajando". Pero en trading, menos es casi siempre más.
 
-<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LOS PELIGROS -->
+<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article Bottom) -->
+<div class="adsense-slot">
+  <p style="margin:0;font-size:0.75rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;">Publicidad</p>
+</div>
 
 ## 5 señales de que estás overtrading
 

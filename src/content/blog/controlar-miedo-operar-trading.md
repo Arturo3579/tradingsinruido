@@ -12,7 +12,10 @@ El miedo en el trading no es debilidad. Es instinto de supervivencia mal ubicado
 
 He vivido cada variante del miedo. El miedo a entrar después de una racha de pérdidas. El miedo a dejar correr una ganancia porque podría revertirse. El miedo a perder lo que acabo de ganar. Y el peor de todos: el miedo a ser quien soy si fallo de nuevo. Aprender a controlarlo no fue opcional. Fue lo que me separó de dejar el trading y de construir una carrera real en los mercados.
 
-<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA INTRODUCCIÓN -->
+<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article Top) -->
+<div class="adsense-slot">
+  <p style="margin:0;font-size:0.75rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;">Publicidad</p>
+</div>
 
 ## Los 4 tipos de miedo que destruyen traders
 
@@ -40,7 +43,10 @@ Parece contradictorio, pero existe. Subconscientemente, temes lo que significa s
 
 > **Dato clínico:** Estudios en psicología del trading han identificado que el miedo al éxito es común en traders que crecieron en ambientes donde el dinero era tabú o donde el éxito generaba envidia en el entorno cercano.
 
-<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- MITAD DEL ARTÍCULO -->
+<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article Mid) -->
+<div class="adsense-slot">
+  <p style="margin:0;font-size:0.75rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;">Publicidad</p>
+</div>
 
 ## 5 técnicas profesionales para operar sin miedo
 
@@ -108,7 +114,10 @@ Si la respuesta es no, reduce el tamaño de la posición. Sigue reduciendo hasta
 
 No hay vergüenza en operar pequeño. La vergüenza está en operar grande por ego y perderlo todo por miedo.
 
-<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LAS TÉCNICAS -->
+<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article Bottom) -->
+<div class="adsense-slot">
+  <p style="margin:0;font-size:0.75rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;">Publicidad</p>
+</div>
 
 ## Cómo entrenar el miedo como un músculo
 

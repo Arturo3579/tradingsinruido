@@ -10,7 +10,10 @@ Elegir un broker es una de las decisiones más importantes cuando empiezas en tr
 
 He operado con más de 5 brokers diferentes durante los últimos años, operando desde índices como el Nasdaq 100 (NQ) hasta pares de divisas como EUR/USD y USD/JPY. En este artículo te comparto **mi comparativa real** de los brokers más adecuados para principiantes en 2026.
 
-<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA INTRODUCCIÓN -->
+<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article Top) -->
+<div class="adsense-slot">
+  <p style="margin:0;font-size:0.75rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;">Publicidad</p>
+</div>
 
 ## ¿Qué buscar en un broker si eres principiante?
 
@@ -48,7 +51,10 @@ La cuenta demo es tu simulador. Necesitas poder practicar sin presión. El broke
 
 Cuando tienes dudas sobre una orden, un retiro o un problema técnico, necesitas respuestas claras. El soporte en español es un plus enorme para principiantes. He tenido problemas resueltos en 10 minutos con soporte en español, mientras que en inglés me tomó días.
 
-<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- MITAD DEL ARTÍCULO -->
+<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article Mid) -->
+<div class="adsense-slot">
+  <p style="margin:0;font-size:0.75rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;">Publicidad</p>
+</div>
 
 ## Comparativa de brokers recomendados para principiantes
 
@@ -111,7 +117,10 @@ Si prefieres **MetaTrader 4 o 5** (las plataformas más usadas por traders), Ava
 
 **Apto para:** Principiantes que quieren dominar MetaTrader desde el principio.
 
-<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article) -- DESPUÉS DE LA COMPARATIVA -->
+<!-- 📢 BLOQUE DE ANUNCIO ADSENSE (In-Article Bottom) -->
+<div class="adsense-slot">
+  <p style="margin:0;font-size:0.75rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;">Publicidad</p>
+</div>
 
 ## Mi recomendación personal (según tu perfil)
 
