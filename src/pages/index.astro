@@ -6,18 +6,108 @@ const posts = await getCollection("blog");
 const sortedPosts = posts.sort(
   (a, b) => b.data.date.getTime() - a.data.date.getTime()
 );
+const latestPosts = sortedPosts.slice(0, 3);
+
+const title = "Inicio";
+const description = "Centro de recursos sobre finanzas personales, inversión y trading. Calculadoras gratuitas, guías prácticas y herramientas para manejar tu dinero sin ruido.";
 ---
 
-<BaseLayout title="Inicio" description="Blog sobre trading, inversión y educación financiera. Aprende a operar sin ruido.">
-  <section class="post-list">
-    <h2 class="section-title">Últimos artículos</h2>
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="hero">
+    <h1 class="hero-title">Aprende a manejar tu dinero</h1>
+    <p class="hero-subtitle">
+      Desde tu primer presupuesto hasta tu primera inversión. Recursos gratuitos, calculadoras interactivas y guías basadas en experiencia real. Sin promesas absurdas.
+    </p>
+    <div class="hero-cta">
+      <a href="/blog" class="btn btn-primary">Explorar artículos</a>
+      <a href="/herramientas" class="btn btn-secondary">Ver herramientas</a>
+    </div>
+  </section>
 
-    {sortedPosts.length === 0 && (
-      <p style="color: var(--color-text-muted);">No hay artículos publicados aún.</p>
-    )}
+  <!-- Hub Grid -->
+  <section>
+    <h2 class="section-heading">Explora por categoría</h2>
+    <div class="hub-grid">
+      <div class="hub-card">
+        <div class="hub-card-icon">💰</div>
+        <h3>Finanzas Personales</h3>
+        <p>Presupuestos que funcionan, fondos de emergencia, control de gastos y apps de ahorro. Lo básico que nadie te enseñó.</p>
+        <ul>
+          <li><a href="/blog/presupuesto-mensual-primer-paso">Crear un presupuesto mensual</a></li>
+          <li><a href="/blog/fondo-emergencia-cuanto-donde">Fondo de emergencia</a></li>
+          <li><a href="/blog/apps-ahorro-inversion-espana-2026">Apps de ahorro</a></li>
+        </ul>
+      </div>
 
-    {
-      sortedPosts.map((post) => (
+      <div class="hub-card">
+        <div class="hub-card-icon">📈</div>
+        <h3>Inversión para Principiantes</h3>
+        <p>ETFs, roboadvisors, comparativas de plataformas y estrategias pasivas. Empieza a invertir sin dedicar horas al análisis.</p>
+        <ul>
+          <li><a href="/blog/guia-etfs-principiantes">Guía de ETFs</a></li>
+          <li><a href="/blog/elegir-primera-cuenta-inversion">Elegir tu primera cuenta</a></li>
+          <li><a href="/comparativa-roboadvisors">Comparativa roboadvisors</a></li>
+        </ul>
+      </div>
+
+      <div class="hub-card">
+        <div class="hub-card-icon">🎯</div>
+        <h3>Trading Avanzado</h3>
+        <p>Estrategias operativas, psicología del trader, gestión de riesgo y casos de estudio con errores reales. Solo si ya dominas lo básico.</p>
+        <ul>
+          <li><a href="/blog/estrategia-apertura-nueva-york-nasdaq">Estrategia Nasdaq</a></li>
+          <li><a href="/blog/psicologia-fomo-trading-combatir">Combatir el FOMO</a></li>
+          <li><a href="/blog/disciplina-trading-por-que-falla">Por qué falla la disciplina</a></li>
+        </ul>
+      </div>
+
+      <div class="hub-card">
+        <div class="hub-card-icon">🛠️</div>
+        <h3>Herramientas Gratuitas</h3>
+        <p>Calculadoras interactivas que funcionan en tu navegador sin enviar datos a ningún servidor. Utilidad real, sin registro.</p>
+        <ul>
+          <li><a href="/calculadora-interes-compuesto">Interés compuesto</a></li>
+          <li><a href="/calculadora-fondo-emergencia">Fondo de emergencia</a></li>
+          <li><a href="/glosario-financiero">Glosario financiero</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Tools -->
+  <section>
+    <h2 class="section-heading">Herramientas destacadas</h2>
+    <div class="tool-list">
+      <div class="tool-card">
+        <h3>📈 Calculadora de Interés Compuesto</h3>
+        <p>Visualiza cuánto crecerá tu dinero si inviertes de forma constante. Incluye proyección de capital total, intereses generados y rentabilidad.</p>
+        <a href="/calculadora-interes-compuesto" class="btn btn-primary">Usar calculadora</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>🛡️ Calculadora de Fondo de Emergencia</h3>
+        <p>Calcula tu meta de ahorro de emergencia según tus gastos fijos y situación personal. Con recomendación de cuánto ahorrar cada mes.</p>
+        <a href="/calculadora-fondo-emergencia" class="btn btn-primary">Usar calculadora</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>📚 Glosario Financiero</h3>
+        <p>Más de 30 términos explicados en lenguaje sencillo. De ETF a spread, pasando por liquidez, TER y YMYL.</p>
+        <a href="/glosario-financiero" class="btn btn-primary">Consultar términos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Posts -->
+  <section>
+    <h2 class="section-heading">Últimos artículos</h2>
+    <div class="post-list">
+      {latestPosts.length === 0 && (
+        <p style="color: var(--color-text-muted);">No hay artículos publicados aún.</p>
+      )}
+
+      {latestPosts.map((post) => (
         <article class="post-card">
           {post.data.image && (
             <a href={`/blog/${post.id}`}>
@@ -44,7 +134,20 @@ const sortedPosts = posts.sort(
             </a>
           </div>
         </article>
-      ))
-    }
+      ))}
+    </div>
+    <div style="text-align:center;margin-top:1rem;">
+      <a href="/blog" class="btn btn-secondary">Ver todos los artículos</a>
+    </div>
+  </section>
+
+  <!-- Trust Signals -->
+  <section style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--color-border);">
+    <div class="page-body">
+      <div class="info-box">
+        <strong>🔒 Transparencia y confianza</strong><br>
+        Todo nuestro contenido es educativo, no asesoramiento financiero. No vendemos cursos. No prometemos rentabilidades. Si no lo hemos vivido, no lo escribimos. Consulta nuestra <a href="/politica-editorial">política editorial</a>, nuestra <a href="/metodologia">metodología de comparación</a> y nuestro <a href="/sobre-mi">equipo</a>.
+      </div>
+    </div>
   </section>
 </BaseLayout>

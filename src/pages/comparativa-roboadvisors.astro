@@ -1,0 +1,107 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Comparativa de Roboadvisors en España 2026";
+const description = "Comparativa objetiva de roboadvisors españoles: Indexa Capital, Finanbest, MyInvestor, InbestMe. Comisiones, mínimos, fondos y nuestra valoración.";
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="page-content">
+    <header class="page-header">
+      <h1 class="page-title">🤖 Comparativa de Roboadvisors en España 2026</h1>
+      <p class="page-lead">Los roboadvisors son plataformas que invierten tu dinero automáticamente en carteras diversificadas según tu perfil de riesgo. Ideales para quienes quieren invertir sin dedicar horas al análisis técnico. Aquí comparamos las principales opciones disponibles para residentes en España.</p>
+    </header>
+
+    <div class="page-body">
+      <h2>Tabla comparativa</h2>
+      <div class="comparison-table-container">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Plataforma</th>
+              <th>Comisión anual</th>
+              <th>Mínimo inicial</th>
+              <th>Tipos de cartera</th>
+              <th>Retiradas</th>
+              <th>Valoración</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Indexa Capital</strong></td>
+              <td>0.44% - 1.04%</td>
+              <td>3.000€</td>
+              <td>7 perfiles (de muy conservador a muy agresivo)</td>
+              <td>Sin coste</td>
+              <td><span class="badge badge-green">Recomendado</span></td>
+            </tr>
+            <tr>
+              <td><strong>Finanbest</strong></td>
+              <td>0.99% - 1.49%</td>
+              <td>0€</td>
+              <td>5 perfiles + carteras temáticas</td>
+              <td>Sin coste</td>
+              <td><span class="badge badge-yellow">Buena opción</span></td>
+            </tr>
+            <tr>
+              <td><strong>MyInvestor</strong></td>
+              <td>0.50% - 0.85%</td>
+              <td>0€</td>
+              <td>4 perfiles + inversión temática</td>
+              <td>Sin coste</td>
+              <td><span class="badge badge-green">Recomendado</span></td>
+            </tr>
+            <tr>
+              <td><strong>InbestMe</strong></td>
+              <td>0.75% - 1.25%</td>
+              <td>0€</td>
+              <td>6 perfiles + planes de pensiones</td>
+              <td>Sin coste</td>
+              <td><span class="badge badge-yellow">Buena opción</span></td>
+            </tr>
+            <tr>
+              <td><strong>Popcoin (Banco Santander)</strong></td>
+              <td>0.99%</td>
+              <td>20€</td>
+              <td>4 perfiles</td>
+              <td>Sin coste</td>
+              <td><span class="badge badge-yellow">Buena opción</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="font-size:0.85rem;color:var(--color-text-muted);margin-top:-0.5rem;">
+        <em>Datos actualizados a enero 2026. Las comisiones pueden incluir gastos de los fondos subyacentes (TER). Consulta la web oficial de cada plataforma antes de contratar.</em>
+      </p>
+
+      <h2>¿Qué es un roboadvisor y para quién es?</h2>
+      <p>Un roboadvisor es un servicio de gestión automatizada de inversiones. Tú respondes un cuestionario sobre tu situación económica, horizonte temporal y tolerancia al riesgo. El algoritmo asigna tu dinero entre fondos indexados (ETFs principalmente) y lo rebalancea periódicamente para mantener la proporción objetivo.</p>
+      <p>Es ideal para ti si:</p>
+      <ul class="styled-list">
+        <li>No tienes tiempo ni interés en analizar mercados diariamente.</li>
+        <li>Prefieres una estrategia de buy-and-hold a largo plazo.</li>
+        <li>Buscas diversificación automática en mercados globales.</li>
+        <li>Quieres empezar a invertir sin necesidad de grandes conocimientos técnicos.</li>
+      </ul>
+      <p><strong>No es para ti si:</strong> buscas rentabilidades a corto plazo, quieres operar intradía o prefieres elegir cada activo individualmente. Para eso existen los brokers de trading, no los roboadvisors.</p>
+
+      <div class="info-box">
+        <strong>📊 Dato importante</strong><br>
+        La comisión total que pagas en un roboadvisor incluye dos partes: la comisión de la plataforma (la que ves arriba) y el TER (Total Expense Ratio) de los fondos subyacentes, que suele oscilar entre el 0.15% y el 0.35% adicional. Indexa Capital y MyInvestor suelen ser los más transparentes desglosando estos costes.
+      </div>
+
+      <h2>¿Necesitas un roboadvisor para invertir?</h2>
+      <p>No. Puedes montar tu propia cartera de ETFs en un broker como Interactive Brokers, DEGIRO o MyInvestor Broker, pagando únicamente el TER de los fondos y comisiones de compra/venta. El roboadvisor cobra un extra por automatizar y rebalancear. Ese extra suele valer la pena si valoras tu tiempo o no quieres complicarte.</p>
+
+      <h2>Nuestra metodología de comparación</h2>
+      <p>Esta comparativa se basa en información pública de las webs de cada plataforma a enero 2026. No recibimos compensación de ninguna de ellas por aparecer aquí ni por el orden en que las mostramos. La valoración "Recomendado" se otorga a plataformas con comisiones bajas, mínimos accesibles y carteras bien diversificadas con fondos de proveedores sólidos (Vanguard, iShares, Amundi).</p>
+      <p>Para más detalles sobre cómo analizamos productos financieros, consulta nuestra <a href="/metodologia">página de metodología</a>.</p>
+
+      <div class="warning-box">
+        <strong>⚠️ Aviso legal</strong><br>
+        Esta comparativa es informativa y no constituye recomendación de inversión. Las condiciones de cada plataforma pueden cambiar. Antes de contratar cualquier servicio, lee detenidamente sus condiciones, comisiones y riesgos. El valor de las inversiones puede fluctuar y puedes perder parte o la totalidad de tu capital. Trading Sin Ruido no tiene relación comercial directa con ninguna de las plataformas mencionadas, aunque algunos enlaces pueden ser de afiliados.
+      </div>
+    </div>
+  </div>
+</BaseLayout>

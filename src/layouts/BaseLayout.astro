@@ -43,8 +43,10 @@ const { title, description, image } = Astro.props;
         </a>
         <nav class="site-nav">
           <a href="/">Inicio</a>
-          <a href="/sobre-nosotros">Sobre Nosotros</a>
-          <a href="/privacidad">Privacidad</a>
+          <a href="/blog">Blog</a>
+          <a href="/herramientas">Herramientas</a>
+          <a href="/sobre-mi">Sobre Mí</a>
+          <a href="/contacto">Contacto</a>
           <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar modo oscuro/claro">
             <span class="theme-icon light">☀️</span>
             <span class="theme-icon dark">🌙</span>
@@ -92,28 +94,33 @@ const { title, description, image } = Astro.props;
       <div class="container footer-grid">
         <div>
           <div class="footer-brand"><a href="/">Trading Sin Ruido</a></div>
-          <p class="footer-desc">Blog de trading, inversión y educación financiera. Aprende a operar sin ruido en los mercados.</p>
+          <p class="footer-desc">Centro de recursos sobre finanzas personales, inversión y trading. Aprende a manejar tu dinero sin ruido.</p>
         </div>
         <div class="footer-links">
           <h4>Navegación</h4>
           <ul>
             <li><a href="/">Inicio</a></li>
-            <li><a href="/sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/herramientas">Herramientas</a></li>
+            <li><a href="/sobre-mi">Sobre Mí</a></li>
             <li><a href="/contacto">Contacto</a></li>
           </ul>
         </div>
         <div class="footer-links">
-          <h4>Legal</h4>
+          <h4>Legal y Transparencia</h4>
           <ul>
             <li><a href="/privacidad">Política de Privacidad</a></li>
             <li><a href="/cookies">Política de Cookies</a></li>
             <li><a href="/terminos">Términos de Uso</a></li>
+            <li><a href="/politica-editorial">Política Editorial</a></li>
+            <li><a href="/metodologia">Metodología</a></li>
+            <li><a href="/correcciones">Correcciones</a></li>
           </ul>
         </div>
       </div>
       <div class="container footer-bottom">
         <p>&copy; {new Date().getFullYear()} Trading Sin Ruido. Todos los derechos reservados.</p>
-        <p>Este sitio contiene enlaces de afiliados y publicidad. No es asesoramiento financiero.</p>
+        <p>Este sitio contiene enlaces de afiliados y publicidad. Todo el contenido es educativo. No es asesoramiento financiero.</p>
       </div>
     </footer>
   </body>

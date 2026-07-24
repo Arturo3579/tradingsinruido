@@ -1,0 +1,122 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Metodología";
+const description = "Cómo analizamos brokers, plataformas y productos financieros en Trading Sin Ruido. Nuestros criterios de evaluación y proceso de comparación.";
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="page-content">
+    <header class="page-header">
+      <h1 class="page-title">Metodología</h1>
+      <p class="page-lead">Explicamos paso a paso cómo comparamos productos financieros, brokers y plataformas. Para que sepas exactamente sobre qué basamos nuestras valoraciones y por qué una plataforma puede aparecer como "recomendada" o no.</p>
+    </header>
+
+    <div class="page-body">
+      <h2>1. Fase de investigación</h2>
+      <p>Antes de incluir cualquier plataforma, broker o producto en una comparativa o reseña, realizamos una investigación en profundidad que incluye:</p>
+      <ul>
+        <li><strong>Análisis de la web oficial:</strong> Revisamos condiciones legales, comisiones, productos disponibles, métodos de depósito/retiro y atención al cliente. Screenshot de tarifas relevantes.</li>
+        <li><strong>Verificación regulatoria:</strong> Comprobamos si la entidad está registrada en la CNMV (Comisión Nacional del Mercado de Valores), el Banco de España o reguladores equivalentes europeos (BaFin, FCA, CySEC). Si no está regulada, lo indicamos como advertencia principal.</li>
+        <li><strong>Prueba real cuando es posible:</strong> Para brokers y plataformas que permiten cuentas demo o depósitos mínimos bajos, abrimos una cuenta y testeamos la ejecución, la interfaz, los tiempos de retirada y la atención al cliente.</li>
+        <li><strong>Recopilación de opiniones de usuarios:</strong> Consultamos foros independientes (no moderados por la propia plataforma), Trustpilot con criterio crítico, y redes sociales para detectar problemas recurrentes que no aparecen en la web oficial.</li>
+      </ul>
+
+      <h2>2. Criterios de evaluación: Brokers de trading</h2>
+      <p>Para brokers de forex/CFDs o de bolsa, valoramos los siguientes aspectos con una puntuación de 1 a 5:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Criterio</th>
+            <th>Peso</th>
+            <th>Qué evaluamos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Regulación</strong></td>
+            <td>25%</td>
+            <td>¿Tiene licencia de CNMV, FCA, BaFin o regulador de primer nivel? ¿Dónde está domiciliada la entidad matriz?</td>
+          </tr>
+          <tr>
+            <td><strong>Comisiones y spreads</strong></td>
+            <td>20%</td>
+            <td>Coste por operación, spreads medios en pares/índices líquidos, comisiones de swap, inactividad y retirada.</td>
+          </tr>
+          <tr>
+            <td><strong>Plataforma y usabilidad</strong></td>
+            <td>15%</td>
+            <td>Calidad de la interfaz, estabilidad, disponibilidad de MT4/MT5/TradingView, velocidad de ejecución.</td>
+          </tr>
+          <tr>
+            <td><strong>Productos disponibles</strong></td>
+            <td>15%</td>
+            <td>Variedad de pares de forex, índices, acciones, materias primas, criptomonedas. ¿Se adapta a diferentes estilos?</td>
+          </tr>
+          <tr>
+            <td><strong>Atención al cliente</strong></td>
+            <td>10%</td>
+            <td>Idiomas disponibles (español obligatorio), canales de contacto, tiempo de respuesta, calidad de las respuestas.</td>
+          </tr>
+          <tr>
+            <td><strong>Educación y recursos</strong></td>
+            <td>10%</td>
+            <td>Webinars, artículos, videos, análisis diario gratuito. ¿Aporta valor real o es relleno comercial?</td>
+          </tr>
+          <tr>
+            <td><strong>Depósitos y retiradas</strong></td>
+            <td>5%</td>
+            <td>Métodos disponibles para España, comisiones, tiempos de procesamiento, límites mínimos/máximos.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>3. Criterios de evaluación: Roboadvisors y gestión automatizada</h2>
+      <p>Para plataformas de inversión pasiva, los criterios cambian:</p>
+      <ul>
+        <li><strong>Comisión total (plataforma + TER):</strong> El coste real que paga el inversor. Una diferencia del 0.50% anual puede significar miles de euros menos en 20 años.</li>
+        <li><strong>Mínimo de inversión:</strong> ¿Es accesible para alguien que empieza con 500€?</li>
+        <li><strong>Diversificación de la cartera:</strong> ¿Incluye renta fija, variable, emergentes, REITs? ¿O es una cartera excesivamente simple?</li>
+        <li><strong>Transparencia:</strong> ¿Muestran claramente los fondos subyacentes, el TER, y la evolución histórica? ¿O es todo opaco?</li>
+        <li><strong>Rebalanceo automático:</strong> ¿Con qué frecuencia? ¿Hay costes adicionales?</li>
+        <li><strong>Flexibilidad:</strong> ¿Puedes modificar el perfil de riesgo sin coste? ¿Puedes hacer aportaciones extraordinarias fácilmente?</li>
+      </ul>
+
+      <h2>4. Criterios de evaluación: Cuentas bancarias y de ahorro</h2>
+      <p>Para cuentas remuneradas, depósitos y cuentas corrientes:</p>
+      <ul>
+        <li><strong>Rentabilidad (TAE):</strong> Interés real después de comisiones y condiciones.</li>
+        <li><strong>Seguridad:</strong> ¿Está cubierta por el Fondo de Garantía de Depósitos (hasta 100.000€)?</li>
+        <li><strong>Liquidez:</strong> ¿Puedes recuperar el dinero inmediatamente sin penalización?</li>
+        <li><strong>Condiciones:</strong> ¿Exige domiciliar nómina, hacer compras, o mantener saldos mínimos? Las condiciones ocultas restan valor.</li>
+        <li><strong>Comisiones:</strong> Mantenimiento, transferencias, tarjetas, cajero.</li>
+      </ul>
+
+      <h2>5. Actualización de comparativas</h2>
+      <p>Las condiciones de comisiones y productos cambian constantemente. Nuestra política de actualización es:</p>
+      <ul>
+        <li><strong>Revisión trimestral:</strong> Las comparativas de roboadvisors y brokers se revisan como mínimo cada tres meses.</li>
+        <li><strong>Actualización urgente:</strong> Si una plataforma cambia drásticamente sus condiciones (subida de comisiones, cierre de servicio, cambio regulatorio), actualizamos el artículo en un plazo de 7 días.</li>
+        <li><strong>Fecha visible:</strong> Todas las comparativas incluyen la fecha de la última revisión al principio del artículo.</li>
+      </ul>
+
+      <h2>6. Limitaciones de nuestra metodología</h2>
+      <p>Somos transparentes sobre lo que no podemos evaluar:</p>
+      <ul>
+        <li><strong>No auditamos los estados financieros de los brokers:</strong> Nos basamos en reguladores públicos y reputación general. No tenemos acceso a sus balances internos.</li>
+        <li><strong>La ejecución varía según el usuario:</strong> Nuestra experiencia con un broker puede no ser idéntica a la tuya. El spread a las 3 AM es diferente al de las 10 AM.</li>
+        <li><strong>No probamos todas las funcionalidades:</strong> Si un broker ofrece 5.000 acciones, no las operamos todas. Evaluamos los activos más comunes: EUR/USD, NQ, SP500, acciones large-cap.</li>
+      </ul>
+
+      <div class="info-box">
+        <strong>📬 ¿Sugerencias para mejorar nuestra metodología?</strong><br>
+        Si crees que deberíamos añadir un criterio o modificar nuestro proceso, escríbenos a <a href="mailto:thor19daniel@gmail.com">thor19daniel@gmail.com</a>. Evaluamos todas las propuestas serias.
+      </div>
+
+      <div class="warning-box">
+        <strong>⚠️ Aviso legal</strong><br>
+        Nuestras comparativas son informativas y subjetivas dentro de un marco definido. No constituyen recomendación de inversión. Las condiciones de los productos pueden cambiar. Verifica siempre la información actual en la web oficial del proveedor antes de contratar.
+      </div>
+    </div>
+  </div>
+</BaseLayout>

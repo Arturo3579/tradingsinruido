@@ -1,0 +1,161 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Calculadora de Fondo de Emergencia";
+const description = "Calcula cuánto dinero necesitas en tu fondo de emergencia según tus gastos mensuales y situación personal. Herramienta gratuita y privada.";
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="page-content">
+    <header class="page-header">
+      <h1 class="page-title">🛡️ Calculadora de Fondo de Emergencia</h1>
+      <p class="page-lead">Tu fondo de emergencia es el colchón financiero que te protege ante imprevistos: despido, avería del coche, gastos médicos inesperados. Calcula cuánto necesitas y dónde guardarlo.</p>
+    </header>
+
+    <div class="tool-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="rent">Alquiler / Hipoteca mensual (€)</label>
+          <input type="number" id="rent" value="600" min="0" step="50" />
+        </div>
+        <div class="form-group">
+          <label for="utilities">Suministros (luz, agua, gas, internet) (€)</label>
+          <input type="number" id="utilities" value="150" min="0" step="10" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="food">Alimentación y supermercado (€)</label>
+          <input type="number" id="food" value="300" min="0" step="50" />
+        </div>
+        <div class="form-group">
+          <label for="transport">Transporte (€)</label>
+          <input type="number" id="transport" value="100" min="0" step="10" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="other">Otros gastos fijos (seguros, móvil, préstamos) (€)</label>
+          <input type="number" id="other" value="200" min="0" step="50" />
+        </div>
+        <div class="form-group">
+          <label for="months">Meses de cobertura deseados</label>
+          <select id="months">
+            <option value="3">3 meses (mínimo recomendado)</option>
+            <option value="6" selected>6 meses (recomendación estándar)</option>
+            <option value="9">9 meses (familias con hijos)</option>
+            <option value="12">12 meses (trabajadores autónomos)</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn btn-primary" id="calc-btn" style="width:100%;margin-top:0.5rem;">Calcular fondo de emergencia</button>
+    </div>
+
+    <div class="tool-result" id="result-box" style="display:none;">
+      <h3>Tu fondo de emergencia recomendado</h3>
+      <div class="result-grid">
+        <div class="result-item">
+          <div class="label">Gastos mensuales totales</div>
+          <div class="value" id="res-monthly">—</div>
+        </div>
+        <div class="result-item">
+          <div class="label">Fondo recomendado</div>
+          <div class="value" id="res-total">—</div>
+        </div>
+        <div class="result-item">
+          <div class="label">Cobertura</div>
+          <div class="value" id="res-months">—</div>
+        </div>
+        <div class="result-item">
+          <div class="label">Ahorro mensual sugerido</div>
+          <div class="value" id="res-save">—</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-body">
+      <h2>¿Qué es un fondo de emergencia?</h2>
+      <p>Es una reserva de dinero líquido (fácil de convertir en efectivo sin perder valor) destinada exclusivamente a imprevistos financieros. No es para invertir. No es para vacaciones. Es para dormir tranquilo.</p>
+
+      <h2>¿Dónde guardarlo?</h2>
+      <p>La regla de oro es: <strong>seguro, líquido y separado</strong> de tu cuenta corriente habitual. Estas son las opciones más comunes en España:</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Liquidez</th>
+            <th>Rentabilidad</th>
+            <th>Seguridad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Cuenta corriente</strong></td>
+            <td>Inmediata</td>
+            <td>0% - 0.5%</td>
+            <td>🔒 Muy alta</td>
+          </tr>
+          <tr>
+            <td><strong>Cuenta remunerada / Depósito</strong></td>
+            <td>24-48h</td>
+            <td>2% - 4%</td>
+            <td>🔒 Muy alta</td>
+          </tr>
+          <tr>
+            <td><strong>Fondo monetario</strong></td>
+            <td>2-5 días</td>
+            <td>2% - 3.5%</td>
+            <td>⚠️ Baja volatilidad</td>
+          </tr>
+          <tr>
+            <td><strong>Letras del Tesoro</strong></td>
+            <td>Vencimiento o mercado secundario</td>
+            <td>3% - 3.5%</td>
+            <td>🔒 Muy alta</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="tip-box">
+        <strong>🎯 Consejo práctico</strong><br>
+        Si no tienes fondo de emergencia, tu prioridad número uno antes de invertir en bolsa, criptomonedas o trading es construirlo. Sin colchón financiero, cualquier imprevisto te obligará a vender inversiones en el peor momento posible, probablemente con pérdidas.
+      </div>
+
+      <div class="info-box">
+        <strong>📊 Dato real</strong><br>
+        Según el Banco de España, el 40% de los hogares españoles no podría hacer frente a un gasto inesperado de 1.000€ sin endeudarse. Tener un fondo de emergencia no es ser paranoico: es ser estadísticamente sensato.
+      </div>
+
+      <div class="warning-box">
+        <strong>⚠️ Aviso legal</strong><br>
+        Esta calculadora es una guía orientativa. Tu situación personal puede requerir más o menos cobertura. Evalúa tu estabilidad laboral, dependientes económicos y acceso a otras fuentes de ingresos antes de decidir tu meta exacta.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const fmt = (n) => new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR' }).format(n);
+
+    document.getElementById('calc-btn').addEventListener('click', () => {
+      const rent = parseFloat(document.getElementById('rent').value) || 0;
+      const utilities = parseFloat(document.getElementById('utilities').value) || 0;
+      const food = parseFloat(document.getElementById('food').value) || 0;
+      const transport = parseFloat(document.getElementById('transport').value) || 0;
+      const other = parseFloat(document.getElementById('other').value) || 0;
+      const months = parseInt(document.getElementById('months').value) || 6;
+
+      const monthly = rent + utilities + food + transport + other;
+      const total = monthly * months;
+      const savePerMonth = total / 18; // meta: completar en 18 meses
+
+      document.getElementById('res-monthly').textContent = fmt(monthly);
+      document.getElementById('res-total').textContent = fmt(total);
+      document.getElementById('res-months').textContent = months + ' meses';
+      document.getElementById('res-save').textContent = fmt(savePerMonth) + '/mes';
+      document.getElementById('result-box').style.display = 'block';
+    });
+
+    document.getElementById('calc-btn').click();
+  </script>
+</BaseLayout>

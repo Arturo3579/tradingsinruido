@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Correcciones";
+const description = "Registro público de errores corregidos en Trading Sin Ruido. Transparencia sobre nuestras erratas y cómo las solucionamos.";
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="page-content">
+    <header class="page-header">
+      <h1 class="page-title">Correcciones</h1>
+      <p class="page-lead">Nadie es infalible. Cuando cometemos un error significativo, lo corregimos y lo documentamos aquí. Esta página es nuestro compromiso de transparencia con los lectores.</p>
+    </header>
+
+    <div class="page-body">
+      <h2>Cómo funciona esta página</h2>
+      <p>Cada vez que corregimos un error sustancial en un artículo (una cifra incorrecta, una afirmación factualmente falsa, un dato desactualizado que podía inducir a error), lo registramos aquí con:</p>
+      <ul>
+        <li>El artículo afectado.</li>
+        <li>La fecha de la corrección.</li>
+        <li>El error original.</li>
+        <li>La corrección aplicada.</li>
+      </ul>
+      <p>Los errores tipográficos menores o de estilo no se registran aquí, aunque sí se corrigen en el artículo original.</p>
+
+      <h2>Registro de correcciones</h2>
+
+      <div class="info-box">
+        <strong>✅ Estado actual</strong><br>
+        No se han registrado errores significativos hasta la fecha. Si detectas alguno, por favor escríbenos a <a href="mailto:thor19daniel@gmail.com">thor19daniel@gmail.com</a> y lo revisaremos en un plazo máximo de 48 horas.
+      </div>
+
+      <h2>Cómo reportar un error</h2>
+      <p>Si crees que hemos publicado información incorrecta, puedes reportarlo de dos formas:</p>
+      <ol>
+        <li><strong>Email:</strong> Envía un correto a <a href="mailto:thor19daniel@gmail.com">thor19daniel@gmail.com</a> con el asunto "Error en artículo: [título del artículo]". Incluye la URL, la afirmación que crees errónea y, si es posible, la fuente correcta.</li>
+        <li><strong>Contacto general:</strong> Usa nuestra <a href="/contacto">página de contacto</a> para enviar la incidencia.</li>
+      </ol>
+      <p>Nos comprometemos a:</p>
+      <ul>
+        <li>Revisar tu reporte en un plazo máximo de 48 horas.</li>
+        <li>Si confirmamos el error, corregir el artículo original y añadir una nota de actualización visible.</li>
+        <li>Si el error es significativo, registrarlo en esta página.</li>
+        <li>Responder a tu email informándote de la resolución.</li>
+      </ul>
+
+      <div class="tip-box">
+        <strong>🎯 ¿Qué consideramos un error significativo?</strong><br>
+        Datos numéricos incorrectos (rentabilidades, comisiones, fechas), afirmaciones sobre regulación o legislación que ya no aplican, nombres de productos o plataformas incorrectos que puedan confundir al lector, y omissiones importantes que alteren el significado de una comparativa. Errores de ortografía o de redacción menores se corrigen sin registro.
+      </div>
+    </div>
+  </div>
+</BaseLayout>

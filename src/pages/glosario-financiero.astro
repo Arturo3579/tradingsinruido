@@ -1,0 +1,169 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Glosario Financiero";
+const description = "Diccionario de términos financieros explicados en lenguaje sencillo. De ETF a spread, liquidez y diversificación. Para principiantes y no tan principiantes.";
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="page-content">
+    <header class="page-header">
+      <h1 class="page-title">📚 Glosario Financiero</h1>
+      <p class="page-lead">El mundo de las finanzas está lleno de jerga. Aquí explicamos los términos más importantes en español sencillo, sin complejidad innecesaria. Si echas en falta alguno, <a href="/contacto">escríbenos</a> y lo añadimos.</p>
+    </header>
+
+    <div class="page-body">
+      <div class="glossary-list">
+        <div class="glossary-item">
+          <h3>Acción</h3>
+          <p>Una acción representa una parte del capital social de una empresa. Si compras acciones de Apple, te conviertes en copropietario (aunque sea una parte ínfima) de Apple. Su valor fluctúa según la percepción del mercado sobre la salud de la empresa.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Broker</h3>
+          <p>Intermediario financiero que te permite comprar y vender activos (acciones, ETFs, divisas, etc.) en los mercados. Ejemplos: Interactive Brokers, DEGIRO, eToro. Cobra comisiones o spreads por su servicio.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Broker de bolsa</h3>
+          <p>Broker especializado en la compraventa de acciones y ETFs en mercados regulados. Diferente de un broker de forex/CFDs, que opera con derivados y apalancamiento. Si inviertes a largo plazo, busca un broker de bolsa. Si operas a corto plazo, compararás brokers de forex/CFDs.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Capital inicial</h3>
+          <p>Cantidad de dinero con la que comienzas a invertir o a operar. No debe ser dinero que necesites para vivir. La regla general: si perderlo te causaría problemas reales, no es capital inicial, es dinero de emergencia mal ubicado.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Comisión</h3>
+          <p>Cantidad que cobra un broker, banco o gestora por ejecutar una operación o mantener tu cuenta. Puede ser fija (por ejemplo, 2€ por compra/venta) o porcentual (por ejemplo, 0.10% del capital operado).</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Compound interest (Interés compuesto)</h3>
+          <p>Intereses que generan nuevos intereses. Si inviertes 1.000€ al 5% anual, al año siguiente tienes 1.050€. Ese 50€ extra también genera intereses el siguiente año. A largo plazo, es la fuerza más potente del crecimiento patrimonial. <a href="/calculadora-interes-compuesto">Prueba nuestra calculadora</a>.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Diversificación</h3>
+          <p>Estrategia de repartir tu dinero entre diferentes activos, sectores o geografías para reducir el riesgo. No poner todos los huevos en la misma cesta. Un portfolio diversificado no te hará rico de golpe, pero tampoco te arruinará por el mal resultado de una sola empresa.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>ETF (Exchange Traded Fund)</h3>
+          <p>Fondo cotizado que replica un índice (por ejemplo, el S&P 500 o el MSCI World). Te permite invertir en cientos de empresas con una sola compra. Bajo coste, diversificación instantánea y transparencia. La base de toda inversión pasiva moderna.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Fondo de emergencia</h3>
+          <p>Reserva de dinero líquido destinada exclusivamente a gastos imprevistos: despido, averías, gastos médicos. Equivalente a 3-12 meses de gastos fijos. Debe guardarse en productos seguros y líquidos, no en inversiones de riesgo. <a href="/calculadora-fondo-emergencia">Calcula el tuyo</a>.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Fondo de inversión</h3>
+          <p>Vehículo que agrupa el dinero de muchos inversores para invertirlo conjuntamente en una cartera gestionada por profesionales. Los fondos activos buscan batir al mercado (y suelen cobrar comisiones altas). Los fondos indexados (pasivos) replican un índice (y suelen cobrar comisiones bajas).</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Fondo monetario</h3>
+          <p>Fondo de inversión de muy bajo riesgo que invierte en deuda a corto plazo de alta calidad (bonos del Tesoro, corporativa sólida). No garantiza capital, pero su volatilidad es mínima. Útil como alternativa a la cuenta corriente para fondos de emergencia.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>FVG (Fair Value Gap)</h3>
+          <p>En análisis técnico avanzado (Smart Money Concepts), es una zona de desequilibrio en el precio donde la oferta y la demanda no se encontraron, creando un "vacío" que el precio suele rellenar posteriormente. Concepto usado por traders institucionales.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Gestión de riesgo</h3>
+          <p>Conjunto de reglas que limitan cuánto puedes perder en cada operación o inversión. En trading, la regla de oro es arriesgar como máximo el 1-2% de tu capital por operación. En inversión pasiva, la gestión de riesgo se traduce en diversificación y horizonte temporal.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Horizonte temporal</h3>
+          <p>Período de tiempo que esperas mantener una inversión antes de necesitar el dinero. A más horizonte, más riesgo puedes asumir (puedes esperar a que se recupere una caída). A menos horizonte, más conservador debes ser. Un fondo para jubilación en 30 años no se gestiona igual que un fondo para comprar un coche en 2 años.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>ICT (Inner Circle Trader)</h3>
+          <p>Método de análisis técnico desarrollado por Michael J. Huddleston. Se basa en entender cómo los grandes operadores institucionales (bancos, fondos) mueven el precio mediante liquidez, Order Blocks, Fair Value Gaps y manipulación de sesiones. Es lo opuesto al análisis con indicadores clásicos.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Inversión pasiva</h3>
+          <p>Estrategia de inversión que consiste en comprar y mantener activos diversificados (normalmente ETFs indexados) durante años o décadas, sin intentar predecir el mercado. Rebalanceo periódico, costes mínimos y paciencia. Promovida por inversores como John Bogle y Warren Buffett para la mayoría de personas.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Letras del Tesoro</h3>
+          <p>Títulos de deuda emitidos por el Estado español a corto plazo (3, 6, 12, 18 meses). Son considerados uno de los activos más seguros para un ahorrador español. Se pueden comprar directamente en el Banco de España o a través de brokers. Rentabilidad fija conocida desde la compra.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Liquidez</h3>
+          <p>Facilidad con la que puedes convertir un activo en dinero efectivo sin perder valor. El dinero en cuenta corriente tiene liquidez máxima. Una acción de Apple tiene alta liquidez (se vende en segundos). Un piso de tu abuela en un pueblo tiene baja liquidez (puede tardar años en venderse).</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Mercado lateral</h3>
+          <p>Situación en la que el precio de un activo oscila entre dos niveles (soporte y resistencia) sin establecer una tendencia clara al alza o a la baja. Difícil para los trend-followers, oportunidad para los traders de rangos. La mayoría del tiempo, los mercados están en lateral, no en tendencia.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>MSCI World</h3>
+          <p>Índice que representa las empresas grandes y medianas de 23 países desarrollados. Es la referencia mundial para la diversificación global. Si inviertes en un ETF que replica el MSCI World, estás comprando una pequeña parte de cientos de empresas de EE.UU., Europa, Japón, Australia, etc.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Order Block</h3>
+          <p>En análisis Smart Money, es una zona del precio donde instituciones grandes acumularon posiciones antes de un movimiento significativo. Actúa como soporte o resistencia de alta probabilidad cuando el precio vuelve a ella. Concepto clave en ICT.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Perfil de riesgo</h3>
+          <p>Evaluación de tu capacidad y voluntad de asumir pérdidas temporales en tus inversiones. No es lo mismo tolerancia (¿aguantas ver -20% sin vender?) que capacidad (¿puedes permitirte perder ese dinero sin afectar tu vida?). Los roboadvisors y asesores lo determinan mediante cuestionarios.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Rebalanceo</h3>
+          <p>Acción de ajustar la composición de tu cartera para mantener las proporciones objetivo. Si tu plan dice 60% acciones / 40% bonos y las acciones subieron mucho, pasarás a tener 70/30. Rebalancear significa vender parte de acciones y comprar bonos para volver al 60/40. Las plataformas automatizadas (roboadvisors) lo hacen solas.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Roboadvisor</h3>
+          <p>Plataforma digital que gestiona tu cartera de inversión de forma automatizada. Tú defines tu perfil de riesgo y horizonte, y un algoritmo asigna fondos, los rebalancea y los mantiene diversificados. Comisiones más bajas que la gestión tradicional y accesible desde pocos euros. <a href="/comparativa-roboadvisors">Ver comparativa</a>.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>S&P 500</h3>
+          <p>Índice de las 500 empresas más grandes de Estados Unidos. Considerado el termómetro de la economía estadounidense y uno de los índices más seguidos del mundo. Warren Buffett recomienda que la mayoría de inversores deberían simplemente comprar un ETF que lo replique y olvidarse de él.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Smart Money Concepts</h3>
+          <p>Filosofía de análisis técnico que estudia cómo el dinero institucional (bancos, hedge funds, bancos centrales) opera en los mercados. Se basa en la idea de que el precio se mueve por liquidez y manipulación, no por azar. Herramientas clave: Order Blocks, Fair Value Gaps, liquidez y rupturas de estructura.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>Spread</h3>
+          <p>Diferencia entre el precio de compra (ask) y el precio de venta (bid) de un activo. Es el coste implícito de operar. En forex, un par líquido como EUR/USD puede tener un spread de 0.1-0.3 pips. En un par exótico, puede ser de 20-50 pips. A mayor spread, más difícil es ser rentable en operaciones cortas.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>TER (Total Expense Ratio)</h3>
+          <p>Comisión total anual que cobra un fondo o ETF por su gestión. Incluye costes administrativos, auditoría, custodia, etc. Un TER del 0.20% significa que por cada 1.000€ invertidos, pagas 2€ al año. En inversión pasiva, buscar TERs bajos es fundamental: a largo plazo, cada décima de porcentaje cuenta.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>VIX (Índice de Volatilidad)</h3>
+          <p>Conocido como el "índice del miedo". Mide la volatilidad esperada del S&P 500 durante los próximos 30 días, calculada a partir de los precios de las opciones. Cuando el VIX sube mucho (por encima de 30), el mercado tiene miedo. Cuando está bajo (por debajo de 15), hay complacencia. Útil para contextualizar, no para predecir.</p>
+        </div>
+
+        <div class="glossary-item">
+          <h3>YMYL (Your Money Your Life)</h3>
+          <p>Categoría que Google asigna a contenido que puede afectar directamente la salud financiera, física o emocional de una persona. Blogs de finanzas, medicina o legal son YMYL. Google exige estándares de calidad, autoridad y confianza más estrictos (E-E-A-T) para rankear este tipo de contenido.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

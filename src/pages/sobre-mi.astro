@@ -1,0 +1,58 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Sobre Mí";
+const description = "Conoce a Arturo, el creador de Trading Sin Ruido. Experiencia real en trading, inversión y gestión personal de finanzas. Transparencia total.";
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="page-content">
+    <header class="page-header">
+      <h1 class="page-title">Sobre Mí</h1>
+      <p class="page-lead">Soy Arturo. No soy gestor de fondos, no tengo un CFA, no trabajo en un banco de inversión. Pero llevo desde 2021 aprendiendo a manejar mi dinero, he fundido tres cuentas de trading en el camino, y ahora comparto todo lo que aprendí para que tu curva sea menos costosa que la mía.</p>
+    </header>
+
+    <div class="author-profile">
+      <!-- Sustituye /images/author.jpg por tu foto real -->
+      <img src="/images/author.jpg" alt="Arturo, creador de Trading Sin Ruido" class="author-photo" onerror="this.style.display='none'" />
+      <div class="author-bio">
+        <h2>Arturo</h2>
+        <p>Creador de Trading Sin Ruido · Trader independiente · Entusiasta de las finanzas personales</p>
+      </div>
+    </div>
+
+    <div class="page-body">
+      <h2>Mi historia con el dinero</h2>
+      <p>Empecé en 2021, durante la pandemia, como la mayoría: aburrido en casa, viendo videos de YouTube sobre trading y pensando "¿y si yo también?". Abrí mi primera cuenta real con 500€ en junio de 2021. La perdí en tres semanas operando lotes de 0.50 en EUR/USD sin stop loss, siguiendo señales de un grupo de Telegram que prometía "90% de acierto". Era mentira, por supuesto. Mi saldo final: 12€.</p>
+      <p>La segunda cuenta, de 1.200€, murió en noviembre de 2022 por overtrading en el Nasdaq. La tercera, de 800€, en marzo de 2023 por no respetar stops durante un gap de noticia de la FED. En total, más de 2.500€ perdidos en errores que hoy me parecen obvios, pero que entonces no lo eran.</p>
+      <p>En paralelo, empecé a leer sobre finanzas personales: presupuestos, fondos de emergencia, ETFs, inversión pasiva. Descubrí que antes de intentar batir al mercado como trader, debía dominar lo básico: saber en qué gasto mi dinero, tener un colchón de seguridad, y entender que la inversión pasiva a largo plazo es la estrategia ganadora para el 99% de la población. Incluido yo.</p>
+
+      <h2>¿Qué hago hoy?</h2>
+      <p>Desde 2024 opero una cuenta de trading real con capital que puedo permitirme perder, aplicando gestión de riesgo estricta (máximo 1% por operación), y centrándome en el Nasdaq (NQ) y el USD/JPY con un enfoque basado en ICT y Smart Money Concepts. Mi objetivo no es duplicar la cuenta. Es no perderla. Seis meses después de empezar en 2024 estaba en break even. Al mes nueve, +8% acumulado. No es glamour. Pero es real.</p>
+      <p>Al mismo tiempo, mantengo una cartera de inversión pasiva en ETFs (MSCI World + emergentes) a través de un broker de bolsa, con aportaciones mensuales automáticas. No la toco. No la miro todos los días. Es mi "inversión aburrida", y es la que me permite dormir tranquilo.</p>
+
+      <h2>¿Por qué creé Trading Sin Ruido?</h2>
+      <p>Porque estaba harto del ruido. Internet está lleno de gurús del trading vendiendo humo, de blogs de finanzas que parecen catálogos de productos bancarios, y de comparativas escritas por personas que nunca han usado las herramientas que comparan.</p>
+      <p>Este sitio nace de una regla simple: <strong>si no lo he vivido, no lo escribo</strong>. No te vendo cursos. No prometo hacerte rico. Te cuento lo que he probado, lo que he perdido, lo que he aprendido, y lo que hago hoy. Si te sirve, bienvenido.</p>
+
+      <h2>Transparencia total</h2>
+      <ul class="styled-list">
+        <li><strong>Sin títulos financieros oficiales:</strong> No soy economista, ni analista certificado, ni asesor financiero. Mi experiencia es práctica, no académica.</li>
+        <li><strong>Enlaces de afiliados:</strong> Algunos enlaces a brokers o plataformas son de afiliados. Esto no aumenta tu coste y nos ayuda a mantener el sitio. Siempre lo indicamos cuando es el caso.</li>
+        <li><strong>Publicidad:</strong> Mostramos publicidad a través de redes publicitarias. Nunca aceptamos pagos por escribir favorables a un producto específico.</li>
+        <li><strong>Errores:</strong> Si cometemos un error, lo corregimos públicamente en nuestra <a href="/correcciones">página de correcciones</a>. No borramos artículos: los actualizamos con la fecha de revisión.</li>
+        <li><strong>Independencia editorial:</strong> Ninguna entidad financiera revisa ni aprueba nuestro contenido antes de publicarlo. Escribimos lo que creemos, basado en nuestra experiencia y en fuentes verificables.</li>
+      </ul>
+
+      <div class="info-box">
+        <strong>💡 Contacto directo</strong><br>
+        Si tienes dudas, sugerencias o simplemente quieres compartir tu experiencia, escríbeme a <a href="mailto:thor19daniel@gmail.com">thor19daniel@gmail.com</a>. Respondo en 24-48 horas.
+      </div>
+
+      <div class="warning-box">
+        <strong>⚠️ Aviso legal</strong><br>
+        El contenido de este sitio es puramente educativo e informativo. No constituye asesoramiento financiero, de inversión ni de ningún tipo. Las estrategias y opiniones son personales y no garantizan resultados futuros. El trading conlleva riesgo significativo, incluyendo la posible pérdida total de capital. Nunca inviertas dinero que no puedas permitirte perder.
+      </div>
+    </div>
+  </div>
+</BaseLayout>

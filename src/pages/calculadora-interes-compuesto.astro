@@ -1,0 +1,115 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Calculadora de Interés Compuesto";
+const description = "Calcula cuánto dinero puedes acumular con el interés compuesto. Proyección mensual, anual y total de capital + intereses generados.";
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="page-content">
+    <header class="page-header">
+      <h1 class="page-title">📈 Calculadora de Interés Compuesto</h1>
+      <p class="page-lead">Visualiza el poder del interés compuesto: cuánto crecerá tu dinero si inviertes de forma constante durante años. Ajusta los valores y descubre tu proyección.</p>
+    </header>
+
+    <div class="tool-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="initial">Capital inicial (€)</label>
+          <input type="number" id="initial" value="1000" min="0" step="100" />
+        </div>
+        <div class="form-group">
+          <label for="monthly">Aportación mensual (€)</label>
+          <input type="number" id="monthly" value="200" min="0" step="50" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="rate">Rentabilidad anual estimada (%)</label>
+          <input type="number" id="rate" value="7" min="0" max="30" step="0.5" />
+        </div>
+        <div class="form-group">
+          <label for="years">Años de inversión</label>
+          <input type="number" id="years" value="10" min="1" max="50" step="1" />
+        </div>
+      </div>
+      <button class="btn btn-primary" id="calc-btn" style="width:100%;margin-top:0.5rem;">Calcular proyección</button>
+    </div>
+
+    <div class="tool-result" id="result-box" style="display:none;">
+      <h3>Resultado de la proyección</h3>
+      <div class="result-grid">
+        <div class="result-item">
+          <div class="label">Capital total</div>
+          <div class="value" id="res-total">—</div>
+        </div>
+        <div class="result-item">
+          <div class="label">Total aportado</div>
+          <div class="value" id="res-contributed">—</div>
+        </div>
+        <div class="result-item">
+          <div class="label">Intereses generados</div>
+          <div class="value" id="res-interest">—</div>
+        </div>
+        <div class="result-item">
+          <div class="label">Rentabilidad total</div>
+          <div class="value" id="res-return">—</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-body">
+      <h2>¿Qué es el interés compuesto?</h2>
+      <p>El interés compuesto es el efecto por el cual los intereses generados por una inversión se reinvierten y, a su vez, generan nuevos intereses. Albert Einstein (atribuido) lo llamó "la octava maravilla del mundo". Y no exageraba.</p>
+      <p>Si inviertes 200€ al mes con una rentabilidad del 7% anual, en 20 años tendrás aportado 48.000€ de tu bolsillo, pero tu capital total rondará los <strong>104.000€</strong>. Más de la mitad de tu patrimonio habrá venido de los intereses generados, no de tus aportaciones.</p>
+
+      <div class="tip-box">
+        <strong>🎯 Regla del 72</strong><br>
+        Para saber en cuánto tiempo se duplica tu dinero, divide 72 entre la rentabilidad anual. Al 7% anual, tu dinero se duplica aproximadamente cada 10.3 años. Al 10%, cada 7.2 años.
+      </div>
+
+      <h2>¿Es realista un 7% anual?</h2>
+      <p>El 7% es una estimación conservadora basada en la rentabilidad histórica de índices globales como el MSCI World (aproximadamente 8-10% anual desde 1970, ya descontando inflación). No es una garantía, pero es un punto de referencia razonable para planificar.</p>
+      <p>Si prefieres ser más conservador, prueba con un 5%. Si eres más optimista, prueba con un 9%. La clave no es acertar la rentabilidad exacta: es empezar pronto, ser constante y no tocar el dinero invertido salvo en emergencias.</p>
+
+      <div class="warning-box">
+        <strong>⚠️ Aviso importante</strong><br>
+        Esta calculadora es una herramienta de planificación, no una promesa de resultados. La rentabilidad pasada no garantiza rentabilidad futura. Antes de invertir, informarte y, si es necesario, consulta con un asesor financiero independiente.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const fmt = (n) => new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR' }).format(n);
+    const fmtPct = (n) => new Intl.NumberFormat('es-ES', { style: 'percent', minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(n / 100);
+
+    document.getElementById('calc-btn').addEventListener('click', () => {
+      const initial = parseFloat(document.getElementById('initial').value) || 0;
+      const monthly = parseFloat(document.getElementById('monthly').value) || 0;
+      const rate = parseFloat(document.getElementById('rate').value) || 0;
+      const years = parseInt(document.getElementById('years').value) || 0;
+
+      const r = rate / 100;
+      const months = years * 12;
+      const monthlyRate = r / 12;
+
+      let total = initial;
+      for (let i = 0; i < months; i++) {
+        total = total * (1 + monthlyRate) + monthly;
+      }
+
+      const contributed = initial + (monthly * months);
+      const interest = total - contributed;
+      const totalReturn = contributed > 0 ? ((total - contributed) / contributed) * 100 : 0;
+
+      document.getElementById('res-total').textContent = fmt(total);
+      document.getElementById('res-contributed').textContent = fmt(contributed);
+      document.getElementById('res-interest').textContent = fmt(interest);
+      document.getElementById('res-return').textContent = fmtPct(totalReturn);
+      document.getElementById('result-box').style.display = 'block';
+    });
+
+    // Trigger initial calculation
+    document.getElementById('calc-btn').click();
+  </script>
+</BaseLayout>

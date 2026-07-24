@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Herramientas Financieras";
+const description = "Calculadoras, comparativas y recursos gratuitos para gestionar tus finanzas personales, ahorrar e invertir mejor.";
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="page-content">
+    <header class="page-header">
+      <h1 class="page-title">Herramientas Financieras</h1>
+      <p class="page-lead">Recursos prácticos y gratuitos para tomar mejores decisiones con tu dinero. Sin registros, sin spam. Solo utilidad.</p>
+    </header>
+
+    <div class="tool-list">
+      <div class="tool-card">
+        <h3>📈 Calculadora de Interés Compuesto</h3>
+        <p>Descubre cuánto dinero puedes acumular a lo largo de los años invirtiendo una cantidad fija mensual. Visualiza el poder del interés compuesto con gráficos de proyección.</p>
+        <a href="/calculadora-interes-compuesto" class="btn btn-primary">Usar calculadora</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>🛡️ Calculadora de Fondo de Emergencia</h3>
+        <p>Calcula cuánto dinero necesitas en tu fondo de emergencia según tus gastos fijos mensuales. Obtén una recomendación personalizada basada en tu situación laboral y familiar.</p>
+        <a href="/calculadora-fondo-emergencia" class="btn btn-primary">Usar calculadora</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>🤖 Comparativa de Roboadvisors</h3>
+        <p>Comparativa detallada de las principales plataformas de inversión automatizada disponibles en España. Comisiones, mínimos, fondos disponibles y nuestra valoración objetiva.</p>
+        <a href="/comparativa-roboadvisors" class="btn btn-primary">Ver comparativa</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>📚 Glosario Financiero</h3>
+        <p>Diccionario de más de 30 términos financieros explicados en lenguaje sencillo. Desde ETF hasta spread, pasando por liquidez y diversificación.</p>
+        <a href="/glosario-financiero" class="btn btn-primary">Consultar glosario</a>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <strong>🔒 Privacidad garantizada</strong><br>
+      Todas nuestras calculadoras funcionan 100% en tu navegador. No enviamos ningún dato a servidores externos. Tus números son solo tuyos.
+    </div>
+  </div>
+</BaseLayout>
