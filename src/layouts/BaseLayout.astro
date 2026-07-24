@@ -5,9 +5,36 @@ export interface Props {
   title: string;
   description: string;
   image?: string;
+  breadcrumbs?: { name: string; url: string }[];
 }
 
-const { title, description, image } = Astro.props;
+const { title, description, image, breadcrumbs } = Astro.props;
+
+const siteUrl = "https://www.tradingsinruido.com";
+
+// Schema.org Person (author)
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Arturo",
+  "url": `${siteUrl}/sobre-mi`,
+  "jobTitle": "Trader independiente y creador de contenido financiero",
+  "description": "Creador de Trading Sin Ruido. Experiencia real en trading, inversión y gestión personal de finanzas desde 2021.",
+  "email": "mailto:thor19daniel@gmail.com",
+  "sameAs": []
+};
+
+// Schema.org BreadcrumbList (if breadcrumbs provided)
+const breadcrumbSchema = breadcrumbs && breadcrumbs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbs.map((crumb, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": crumb.name,
+    "item": crumb.url.startsWith("http") ? crumb.url : `${siteUrl}${crumb.url}`
+  }))
+} : null;
 ---
 
 <!DOCTYPE html>
@@ -30,7 +57,24 @@ const { title, description, image } = Astro.props;
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6120255629055260" crossorigin="anonymous"></script>
 
+    <!-- Google Analytics 4 (reemplaza G-XXXXXXXXXX con tu ID de medición real) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
     <!-- PEGAR META TAG DE GOOGLE SEARCH CONSOLE AQUÍ -->
+
+    <!-- Schema.org: Person (author) -->
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+
+    <!-- Schema.org: BreadcrumbList -->
+    {breadcrumbSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    )}
 
     <title>{title} | Trading Sin Ruido</title>
   </head>

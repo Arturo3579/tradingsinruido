@@ -5,8 +5,11 @@ const title = "Calculadora de Interés Compuesto";
 const description = "Calcula cuánto dinero puedes acumular con el interés compuesto. Proyección mensual, anual y total de capital + intereses generados.";
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} breadcrumbs={[{name: "Inicio", url: "/"}, {name: "Herramientas", url: "/herramientas"}, {name: "Calculadora de Interés Compuesto", url: "/calculadora-interes-compuesto"}]}>
   <div class="page-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a><span class="sep">/</span><a href="/herramientas">Herramientas</a><span class="sep">/</span><span class="current">Calculadora de Interés Compuesto</span>
+    </nav>
     <header class="page-header">
       <h1 class="page-title">📈 Calculadora de Interés Compuesto</h1>
       <p class="page-lead">Visualiza el poder del interés compuesto: cuánto crecerá tu dinero si inviertes de forma constante durante años. Ajusta los valores y descubre tu proyección.</p>

@@ -5,8 +5,11 @@ const title = "Glosario Financiero";
 const description = "Diccionario de términos financieros explicados en lenguaje sencillo. De ETF a spread, liquidez y diversificación. Para principiantes y no tan principiantes.";
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} breadcrumbs={[{name: "Inicio", url: "/"}, {name: "Herramientas", url: "/herramientas"}, {name: "Glosario Financiero", url: "/glosario-financiero"}]}>
   <div class="page-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a><span class="sep">/</span><a href="/herramientas">Herramientas</a><span class="sep">/</span><span class="current">Glosario Financiero</span>
+    </nav>
     <header class="page-header">
       <h1 class="page-title">📚 Glosario Financiero</h1>
       <p class="page-lead">El mundo de las finanzas está lleno de jerga. Aquí explicamos los términos más importantes en español sencillo, sin complejidad innecesaria. Si echas en falta alguno, <a href="/contacto">escríbenos</a> y lo añadimos.</p>

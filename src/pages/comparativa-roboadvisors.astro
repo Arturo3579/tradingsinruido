@@ -5,8 +5,11 @@ const title = "Comparativa de Roboadvisors en España 2026";
 const description = "Comparativa objetiva de roboadvisors españoles: Indexa Capital, Finanbest, MyInvestor, InbestMe. Comisiones, mínimos, fondos y nuestra valoración.";
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} breadcrumbs={[{name: "Inicio", url: "/"}, {name: "Herramientas", url: "/herramientas"}, {name: "Comparativa de Roboadvisors", url: "/comparativa-roboadvisors"}]}>
   <div class="page-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a><span class="sep">/</span><a href="/herramientas">Herramientas</a><span class="sep">/</span><span class="current">Comparativa de Roboadvisors</span>
+    </nav>
     <header class="page-header">
       <h1 class="page-title">🤖 Comparativa de Roboadvisors en España 2026</h1>
       <p class="page-lead">Los roboadvisors son plataformas que invierten tu dinero automáticamente en carteras diversificadas según tu perfil de riesgo. Ideales para quienes quieren invertir sin dedicar horas al análisis técnico. Aquí comparamos las principales opciones disponibles para residentes en España.</p>

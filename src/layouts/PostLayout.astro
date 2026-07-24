@@ -9,10 +9,55 @@ export interface Props {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+
+const breadcrumbs = [
+  { name: "Inicio", url: "/" },
+  { name: "Blog", url: "/blog" },
+  { name: post.data.title, url: `/blog/${post.id}` }
+];
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": post.data.title,
+  "description": post.data.description,
+  "image": post.data.image ? [post.data.image] : undefined,
+  "datePublished": post.data.date.toISOString(),
+  "dateModified": post.data.date.toISOString(),
+  "author": {
+    "@type": "Person",
+    "name": "Arturo",
+    "url": "https://www.tradingsinruido.com/sobre-mi"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Trading Sin Ruido",
+    "url": "https://www.tradingsinruido.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.tradingsinruido.com/images/logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `https://www.tradingsinruido.com/blog/${post.id}`
+  }
+};
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description} image={post.data.image}>
+<BaseLayout title={post.data.title} description={post.data.description} image={post.data.image} breadcrumbs={breadcrumbs}>
+  <!-- Schema.org: Article -->
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(articleSchema)} />
+
   <article class="post-article">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a>
+      <span class="sep">/</span>
+      <a href="/blog">Blog</a>
+      <span class="sep">/</span>
+      <span class="current">{post.data.title}</span>
+    </nav>
+
     <header class="post-header">
       {post.data.image && (
         <img src={post.data.image} alt={post.data.title} class="post-image" loading="eager" />

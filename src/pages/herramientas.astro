@@ -5,8 +5,11 @@ const title = "Herramientas Financieras";
 const description = "Calculadoras, comparativas y recursos gratuitos para gestionar tus finanzas personales, ahorrar e invertir mejor.";
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} breadcrumbs={[{name: "Inicio", url: "/"}, {name: "Herramientas", url: "/herramientas"}]}>
   <div class="page-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a><span class="sep">/</span><span class="current">Herramientas</span>
+    </nav>
     <header class="page-header">
       <h1 class="page-title">Herramientas Financieras</h1>
       <p class="page-lead">Recursos prácticos y gratuitos para tomar mejores decisiones con tu dinero. Sin registros, sin spam. Solo utilidad.</p>
